@@ -59,7 +59,6 @@ export const Potential: React.FC = () => {
   const [activeSoto, setActiveSoto] = React.useState(0);
   const sotoImages = [
     { src: '/images/sotosawah.png', alt: 'Soto Sawah Mbak Tutik Kuah Kaldu Rempah Ayam Kampung' },
-    { src: '/images/sotosawah1.png', alt: 'Suasana Saung Joglo Santap Soto Sawah Tepi Terasering' },
     { src: '/images/sotosawah2.png', alt: 'Pemandangan Panorama Sawah Asri Soto Sawah Tambangan' },
   ];
 
@@ -79,7 +78,7 @@ export const Potential: React.FC = () => {
             }}
             className="w-full h-full object-cover"
             alt="Lanskap panorama terasering hijau dan bukit asri Kelurahan Tambangan"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0fq_GZ-zbHTn9-7BMZzabh-GYVorpB9DvJw0EsEUxCoUQht-WO0-n1jhSLdyiVIVgCNONz-dUyV1Q9dQUjUUPAhx7o7oHKAXV3-rgBXkcglZ_M-sqDFSvUyRsstjTgzF-Yb6L9c3vjK3rHrT15DKMrjxz0heRhSV_cGdbZFjtfkI92kB9Y2h0S8WioxrF8NOTiJ6fRb4kTHpC0VaDhlwI_kazVwJK-nWruwwweXXbKqkqy4oCqauXRw"
+            src="/images/deswita.png"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-on-background via-on-background/70 to-on-background/40 mix-blend-multiply"></div>
           <div className="absolute inset-0 bg-black/40"></div>
@@ -304,7 +303,7 @@ export const Potential: React.FC = () => {
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   alt="Kampung Wisata Sawah dan Burung Hantu Tyto alba Tambangan"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0fq_GZ-zbHTn9-7BMZzabh-GYVorpB9DvJw0EsEUxCoUQht-WO0-n1jhSLdyiVIVgCNONz-dUyV1Q9dQUjUUPAhx7o7oHKAXV3-rgBXkcglZ_M-sqDFSvUyRsstjTgzF-Yb6L9c3vjK3rHrT15DKMrjxz0heRhSV_cGdbZFjtfkI92kB9Y2h0S8WioxrF8NOTiJ6fRb4kTHpC0VaDhlwI_kazVwJK-nWruwwweXXbKqkqy4oCqauXRw"
+                  src="/images/deswita.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent"></div>
                 <div className="absolute top-4 left-4 flex flex-wrap gap-2">
@@ -409,7 +408,7 @@ export const Potential: React.FC = () => {
                     Kuliner Ikonik Tambangan
                   </span>
                   <span className="px-2.5 py-1 rounded-full bg-white/90 text-text-primary text-[11px] font-semibold">
-                    Foto {activeSoto + 1}/3
+                    Foto {activeSoto + 1}/2
                   </span>
                 </div>
                 <div className="absolute bottom-4 left-5 right-5 text-white">

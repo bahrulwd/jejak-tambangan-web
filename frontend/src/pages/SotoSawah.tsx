@@ -470,7 +470,7 @@ export const SotoSawah: React.FC = () => {
                     <img
                       alt="Suasana joglo terbuka santap soto sawah bersama keluarga diiringi pemandangan sawah terasering pagi"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      src="/images/sotosawah1.png"
+                      src="/images/sotosawah2.png"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-3">
                       <span className="text-xs text-white font-medium">Saung Joglo Tepi Terasering</span>
