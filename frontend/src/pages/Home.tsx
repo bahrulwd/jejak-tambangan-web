@@ -345,7 +345,7 @@ export const Home: React.FC = () => {
               <div className="relative h-72 sm:h-80 lg:h-[380px] w-full overflow-hidden">
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  alt="Balai Rembug & Upacara Bersih Desa Tambangan"
+                  alt="Tradisi Nyadran Kelurahan Tambangan"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZx8sIzJWTz1gCGZ6d9c5uX0Szua68NyniayoMRd4SVxttSQGzd8wA5A2_4RMkholhEpxkEDr6tWcA9tMFJueoX5Da9Xvr1HAkNMGv8xn__zk_-AHFnZr0bVefImYsA7wrGFhE9D7irAdPPYBx8PMIX3gvTP4Y56SSdgH1uXvt2HLipd2x3SRaRaiG1160QadbK339I47HqyAEEIVjH7KbGUOEMs6oW0v7drsEutoGjyWSgOt7wxhX4g"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent"></div>
@@ -355,30 +355,30 @@ export const Home: React.FC = () => {
                       Tradisi &amp; Guyub Warga
                     </span>
                     <h3 className="text-lg sm:text-xl font-bold text-white leading-snug">
-                      Balai Rembug &amp; Upacara Bersih Desa
+                      Tradisi Nyadran
                     </h3>
                   </div>
                   <span className="px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-medium text-white shrink-0">
-                    Dokumentasi 2024
+                    Bulan Rajab
                   </span>
                 </div>
               </div>
               <div className="p-6 sm:p-7 flex flex-col gap-4">
                 <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-                  Guyub rukun bukan sekadar semboyan di Tambangan. Dari pengelolaan mata air pegunungan hingga pemugaran balai warga, setiap jengkal ruang publik dibangun atas musyawarah mufakat yang diwariskan turun-temurun sejak era kepemimpinan tetua desa pertama.
+                  Tradisi Nyadran di Kelurahan Tambangan diselenggarakan rutin setiap bulan Rajab pada hari Jumat Pon atau Jumat Kliwon, bertempat di Makam Keramat dan Sendang Manco. Warga berbondong-bondong membawa tenong berisi aneka sajian untuk didoakan bersama sebagai wujud rasa syukur atas berkah, kesehatan, dan kerukunan guyub warga.
                 </p>
                 <div className="flex flex-wrap items-center gap-4 pt-2 border-t border-border/60 text-text-secondary text-xs sm:text-sm font-medium">
                   <span className="flex items-center gap-1.5">
-                    <span className="material-symbols-outlined text-[18px] text-primary-container">groups</span>
-                    6 Rukun Warga (28 RT)
+                    <span className="material-symbols-outlined text-[18px] text-primary-container">temple_hindu</span>
+                    Makam Keramat &amp; Sendang Manco
                   </span>
                   <span className="flex items-center gap-1.5">
-                    <span className="material-symbols-outlined text-[18px] text-primary-container">water_drop</span>
-                    12 Titik Mata Air Alami
+                    <span className="material-symbols-outlined text-[18px] text-primary-container">inventory_2</span>
+                    Sedekah Tenong Bersama
                   </span>
                   <span className="flex items-center gap-1.5">
-                    <span className="material-symbols-outlined text-[18px] text-primary-container">location_on</span>
-                    Kecamatan Mijen, Semarang
+                    <span className="material-symbols-outlined text-[18px] text-primary-container">calendar_month</span>
+                    Jumat Pon / Kliwon (Rajab)
                   </span>
                 </div>
               </div>
