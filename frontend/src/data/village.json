@@ -1,0 +1,23 @@
+{
+  "nama": "Kelurahan Tambangan",
+  "kecamatan": "Mijen",
+  "kota": "Kota Semarang",
+  "provinsi": "Jawa Tengah",
+  "kodePos": "50215",
+  "deskripsi": "Kelurahan Tambangan adalah kawasan penyangga agraris dan budaya di lereng perbukitan Kecamatan Mijen, Kota Semarang. Dikenal dengan identitas 'Sawah, Laes, dan Anggrek', Tambangan memadukan 86,6 hektare sawah berlatar Gunung Ungaran, kesenian tradisional langka Laes, budidaya anggrek komersial, dan ikon kuliner Soto Sawah Mbak Tutik.",
+  "kontakWisata": {
+    "pengelola": "Budi Yuwono",
+    "telepon": "081575880764",
+    "email": "desawisatatambangan@gmail.com"
+  },
+  "statistik": {
+    "luasSawahHa": 86.60,
+    "luasLahanKeringHa": 272.75,
+    "kunjunganWisata2025": 768,
+    "pertumbuhanKunjungan": "+259%",
+    "pendapatanWisata2025": "Rp 200 Juta",
+    "tenagaKerjaWisata": 45,
+    "umkmWisataTerdata": 15,
+    "kategoriWisata": "Desa Wisata Rintisan (Jadesta)"
+  }
+}

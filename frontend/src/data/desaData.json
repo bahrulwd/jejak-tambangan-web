@@ -1,0 +1,82 @@
+{
+  "potensiDesa": [
+    {
+      "id": "potensi-1",
+      "judul": "Kampung Wisata Sawah & Burung Hantu",
+      "kategoriTag": "Agrowisata",
+      "deskripsi": "Kawasan persawahan seluas 86,60 hektare berlatar Gunung Ungaran yang dipadukan dengan sarana edukasi konservasi burung hantu (Tyto alba) pengendali hama alami.",
+      "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuA0fq_GZ-zbHTn9-7BMZzabh-GYVorpB9DvJw0EsEUxCoUQht-WO0-n1jhSLdyiVIVgCNONz-dUyV1Q9dQUjUUPAhx7o7oHKAXV3-rgBXkcglZ_M-sqDFSvUyRsstjTgzF-Yb6L9c3vjK3rHrT15DKMrjxz0heRhSV_cGdbZFjtfkI92kB9Y2h0S8WioxrF8NOTiJ6fRb4kTHpC0VaDhlwI_kazVwJK-nWruwwweXXbKqkqy4oCqauXRw"
+    },
+    {
+      "id": "potensi-2",
+      "judul": "Sentra Budidaya Anggrek Lestari",
+      "kategoriTag": "Hortikultura",
+      "deskripsi": "Pengembangan tanaman hias anggrek oleh CV Bunga Alam Lestari sebagai komoditas suvenir resmi desa wisata yang memiliki rantai pasok agribisnis luas.",
+      "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuA-i6TBpnM8FLpGrZvfVQNbBtW5an5DLSbbcn3EPPyPMeM2K6Ef7mBm_O8YM-3AXGZRxiHNvStP_QDLUmEf0AvW8BL6GcFP8XXZAnoj7lOdXaZuLn78XzdwDBBI7SRkeWZATlczV6WUOmjQojtlpb-fyurWYZEJ8Xhj7t6Vl3eDKxRDUO5-LtXHbPWUW-ZcejiEE50EcVdaYHCFtP82DddTnk0P3WQW-R2K8nvTSnIW"
+    },
+    {
+      "id": "potensi-3",
+      "judul": "Kesenian Tradisional Laes / Lais",
+      "kategoriTag": "Seni Budaya",
+      "deskripsi": "Paguyuban Ngudi Laras Wahyu Budoyo melestarikan kesenian akrobatik tari di atas tali tambang bambu tinggi sebagai warisan pemohon berkah dan tolak bala.",
+      "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC7-nnHDJIAA1dPGHxumogGb9Qame-FNF8TTSO898JGVzWgOsn2PA2aoBTJJTY5nDVC73wwQOoePS5WC03l1xnlphvP5WZKAKCMWfi5QziQ-5wckkjVM_F5N-eJIUesRPKaFwhg80NGCMYxGtBB9piExaIhVI402R6nTFaWlCjoZAh3DTwtlssP_HDpPkYenHCCoKBhqAOkmZHHq0hwYYwYxsW5uk52qI1_VpZ2HPMlAkq2mjrlPuGn"
+    },
+    {
+      "id": "potensi-4",
+      "judul": "Konservasi Mata Air Tuk Babon",
+      "kategoriTag": "Lingkungan",
+      "deskripsi": "Sumber mata air alami abadi yang terus dijaga untuk mengairi sawah terasering berundak serta menjamin ketahanan air bersih warga Tambangan.",
+      "fotoUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "topUmkm": [
+    {
+      "id": "umkm-soto-sawah",
+      "namaUsaha": "Soto Sawah Mbak Tutik",
+      "kategori": "Kuliner Ikonik",
+      "deskripsi": "Ikon kuliner Tambangan di Jl. Duwet dengan kuah kaldu rempah ayam kampung asli berlatar panorama sawah terasering asri.",
+      "harga": "Mulai Rp 12.000 / porsi",
+      "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDORC1pPDcgZrWKoVgUumNb-Cg8xx2bwkUXl4ZqLYGWYClc6c_hJPnGYfI4saEcko8LRFo9iz4gfo4BP7BSvw4XJiLfid5dRxaf_74DFqW_UgiTtX_I2tj0HwLBB6JAy0roFaBsWvN_vrtNKSOLFzXNsV1a0s7YiLhkuoC7FuFgGfELo918ro1ugAfZACpGPPBb_j0OHEr5csWu4BSb0Yk3HOE_1ae0233zwMZnjZnH_nI8HazRrGoYgQ",
+      "namaPenjual": "Ibu Tutik Handayani",
+      "nomorWa": "6281234567890",
+      "rating": 4.9,
+      "ulasanCount": 540
+    },
+    {
+      "id": "umkm-anggrek-lestari",
+      "namaUsaha": "CV Bunga Alam Lestari (Anggrek)",
+      "kategori": "Tanaman Hias & Suvenir",
+      "deskripsi": "Sentra budidaya dan pembibitan aneka varietas anggrek berkualitas tinggi untuk oleh-oleh dan kolektor tanaman hias.",
+      "harga": "Mulai Rp 45.000 / pot",
+      "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuA-i6TBpnM8FLpGrZvfVQNbBtW5an5DLSbbcn3EPPyPMeM2K6Ef7mBm_O8YM-3AXGZRxiHNvStP_QDLUmEf0AvW8BL6GcFP8XXZAnoj7lOdXaZuLn78XzdwDBBI7SRkeWZATlczV6WUOmjQojtlpb-fyurWYZEJ8Xhj7t6Vl3eDKxRDUO5-LtXHbPWUW-ZcejiEE50EcVdaYHCFtP82DddTnk0P3WQW-R2K8nvTSnIW",
+      "namaPenjual": "Pengelola Bunga Alam Lestari",
+      "nomorWa": "6281575880764",
+      "rating": 4.9,
+      "ulasanCount": 115
+    },
+    {
+      "id": "umkm-cendol-wolu",
+      "namaUsaha": "Cendol Wolu Tambangan",
+      "kategori": "Minuman Tradisional",
+      "deskripsi": "Olahan minuman cendol alami segar penyejuk dahaga wisatawan dengan santan gurih dan gula kelapa murni khas pedesaan.",
+      "harga": "Rp 8.000 / porsi",
+      "fotoUrl": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80",
+      "namaPenjual": "Pengelola Cendol Wolu",
+      "nomorWa": "6281234567894",
+      "rating": 4.8,
+      "ulasanCount": 78
+    },
+    {
+      "id": "umkm-kopi-robusta",
+      "namaUsaha": "Kopi Robusta Lereng Tambangan",
+      "kategori": "Hasil Bumi",
+      "deskripsi": "Biji kopi petik merah pascapanen natural beraroma cokelat rempah khas lereng perbukitan Mijen karya kelompok tani warga.",
+      "harga": "Rp 35.000 / 200g",
+      "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBM7ovqMJvFnRCD_MqFAhLM_3ovTeLY4vvo9N9zms88LlvpYFfoZNop31j6yr7nYg4aAWcDTJAGwJLnkpYG0m-mZ9m_l-OwbNNYTuDXejDwWkmA2bLRPe3GZEXA8Fcj7Z-KmCFQYey9iJmFLaOxuoUuh5g5jUNsyW5r4MRDNMbHM3d08djapJGP_Iy-5RvQ2G8EmiK8Y7lTIw1n7Pqazl-tceQ7ETwP1BdZTYwFvrb8tvhPFWQbmuQbFQ",
+      "namaPenjual": "Kelompok Tani Harum Makmur",
+      "nomorWa": "6281234567891",
+      "rating": 4.9,
+      "ulasanCount": 124
+    }
+  ]
+}

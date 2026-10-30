@@ -1,0 +1,86 @@
+[
+  {
+    "id": "umkm-soto-sawah",
+    "namaUsaha": "Soto Sawah Mbak Tutik",
+    "kategori": "Kuliner Ikonik",
+    "deskripsi": "Ikon kuliner Tambangan di Jl. Duwet dengan kuah kaldu rempah ayam kampung asli berlatar panorama sawah terasering asri. Memiliki diferensiasi pengalaman santap pedesaan yang didokumentasikan dalam publikasi akademik manajemen 2024.",
+    "harga": "Mulai Rp 12.000 / porsi",
+    "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDORC1pPDcgZrWKoVgUumNb-Cg8xx2bwkUXl4ZqLYGWYClc6c_hJPnGYfI4saEcko8LRFo9iz4gfo4BP7BSvw4XJiLfid5dRxaf_74DFqW_UgiTtX_I2tj0HwLBB6JAy0roFaBsWvN_vrtNKSOLFzXNsV1a0s7YiLhkuoC7FuFgGfELo918ro1ugAfZACpGPPBb_j0OHEr5csWu4BSb0Yk3HOE_1ae0233zwMZnjZnH_nI8HazRrGoYgQ",
+    "namaPenjual": "Ibu Tutik Handayani",
+    "nomorWa": "6281234567890",
+    "rating": 4.9,
+    "ulasanCount": 540
+  },
+  {
+    "id": "umkm-anggrek",
+    "namaUsaha": "CV Bunga Alam Lestari (Sentra Anggrek)",
+    "kategori": "Tanaman Hias & Suvenir",
+    "deskripsi": "Sentra budidaya dan pembibitan aneka varietas tanaman anggrek hias berkualitas tinggi. Merupakan produk suvenir resmi desa wisata Tambangan dan objek riset rantai pasok agribisnis 2025.",
+    "harga": "Mulai Rp 45.000 / pot",
+    "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuA-i6TBpnM8FLpGrZvfVQNbBtW5an5DLSbbcn3EPPyPMeM2K6Ef7mBm_O8YM-3AXGZRxiHNvStP_QDLUmEf0AvW8BL6GcFP8XXZAnoj7lOdXaZuLn78XzdwDBBI7SRkeWZATlczV6WUOmjQojtlpb-fyurWYZEJ8Xhj7t6Vl3eDKxRDUO5-LtXHbPWUW-ZcejiEE50EcVdaYHCFtP82DddTnk0P3WQW-R2K8nvTSnIW",
+    "namaPenjual": "CV Bunga Alam Lestari",
+    "nomorWa": "6281575880764",
+    "rating": 4.9,
+    "ulasanCount": 115
+  },
+  {
+    "id": "umkm-cendol-wolu",
+    "namaUsaha": "Cendol Wolu Tambangan",
+    "kategori": "Kuliner Santai",
+    "deskripsi": "Minuman cendol tradisional segar dengan gula kelapa murni dan santan gurih alami, cocok sebagai pelepas dahaga saat berwisata di Tambangan.",
+    "harga": "Rp 8.000 / porsi",
+    "fotoUrl": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80",
+    "namaPenjual": "Pengelola Cendol Wolu",
+    "nomorWa": "6281234567894",
+    "rating": 4.8,
+    "ulasanCount": 78
+  },
+  {
+    "id": "umkm-kopi",
+    "namaUsaha": "Kopi Robusta Lereng Tambangan",
+    "kategori": "Hasil Bumi & Kopi",
+    "deskripsi": "Biji kopi petik merah pascapanen natural beraroma cokelat rempah khas lereng perbukitan Mijen karya kelompok tani warga.",
+    "harga": "Rp 35.000 / 200g",
+    "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBM7ovqMJvFnRCD_MqFAhLM_3ovTeLY4vvo9N9zms88LlvpYFfoZNop31j6yr7nYg4aAWcDTJAGwJLnkpYG0m-mZ9m_l-OwbNNYTuDXejDwWkmA2bLRPe3GZEXA8Fcj7Z-KmCFQYey9iJmFLaOxuoUuh5g5jUNsyW5r4MRDNMbHM3d08djapJGP_Iy-5RvQ2G8EmiK8Y7lTIw1n7Pqazl-tceQ7ETwP1BdZTYwFvrb8tvhPFWQbmuQbFQ",
+    "namaPenjual": "Kelompok Tani Harum Makmur (RW 02)",
+    "nomorWa": "6281234567891",
+    "rating": 4.9,
+    "ulasanCount": 124
+  },
+  {
+    "id": "umkm-besek",
+    "namaUsaha": "Sanggar Anyam Bambu Sepuh",
+    "kategori": "Kriya Anyaman",
+    "deskripsi": "Wadah besek, hantaran, dan kerajinan anyaman bambu apus ramah lingkungan karya perajin tradisional Tambangan.",
+    "harga": "Rp 15.000 - 60.000",
+    "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBQfYl5SiSlHnYJttIiAv2ixsCb4sw83o1whSBEnWARcpMVmtnHm3LkD6ropJcDPddNpLJy4Of5A8klpl2QHNDg2a1yW_dNbg1i569yskYqVAYnQULZOFcgRJTkBs_0VUewhR83XuzqJOWAL9-cHka6H3qw6zTaq8OmSQ7-3I6sIxJSQ298snhY_z9KrkqNpCXtR_xFnjIF62-1RH9uVV7aTHrYSAMxa8LoTtGhF8MZLrRjkGU8NqdtvA",
+    "namaPenjual": "Mbah Karti & Pengrajin RW 03",
+    "nomorWa": "6281234567892",
+    "rating": 4.8,
+    "ulasanCount": 98
+  },
+  {
+    "id": "umkm-sayur",
+    "namaUsaha": "Sayur Organik Subak Tuk Babon",
+    "kategori": "Hasil Bumi & Sayur",
+    "deskripsi": "Sayuran hijau segar tanpa pestisida dipanen subuh hari dari terasering subak yang diairi langsung sumber mata air Tuk Babon.",
+    "harga": "Mulai Rp 10.000 / paket",
+    "fotoUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBaI_hGEvkssNYestu_iSkgLFwwV_Oiz3JEexH_oeCL3jBTAsiJzTsm1N7w-lBagWkCSe-HxrlWEJYAe9NABvDzUHCorw-DSPp_j70A8dZvkfw4SoMIdsWfqsNiFEPakz_Z3EAlKrYS6L2XFm2OERWeav9-HB4Ix9yg6tgXz1rIanTZ-OrdHEAw8VcCDT4Tx4BIo_2sJNtUUN5f2XOGBRZWscEChfer3cg4VL9vk3DerUh_mjq8-OcaAg",
+    "namaPenjual": "KWT Dapur Berkah Dusun Krajan",
+    "nomorWa": "6281234567893",
+    "rating": 4.9,
+    "ulasanCount": 86
+  },
+  {
+    "id": "umkm-madu",
+    "namaUsaha": "Madu Klanceng Tambangan Murni",
+    "kategori": "Hasil Bumi & Sehat",
+    "deskripsi": "Madu murni lebah tanpa sengat Trigona sp. hasil budidaya lereng perbukitan Tambangan kaya antioksidan dan khasiat kesehatan.",
+    "harga": "Rp 65.000 / 250ml",
+    "fotoUrl": "https://images.unsplash.com/photo-1587049352847-4a222e784d38?auto=format&fit=crop&w=800&q=80",
+    "namaPenjual": "Bpk. Sugeng (RW 01)",
+    "nomorWa": "6289876543210",
+    "rating": 5.0,
+    "ulasanCount": 95
+  }
+]
