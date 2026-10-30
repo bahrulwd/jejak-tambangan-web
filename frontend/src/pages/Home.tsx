@@ -96,8 +96,8 @@ export const Home: React.FC = () => {
         <div className="absolute inset-0 z-0 overflow-hidden">
           <motion.img
             className="w-full h-full object-cover"
-            alt="Panorama lanskap terasering asri Kelurahan Tambangan Kecamatan Mijen di waktu senja"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA07BwlizDSbI4Fk-8kuBgV3ARzMWTj36UE64dWGkD971_7wmenfDAlEhLvru79IUNgyGrIJGv8nxEalLYTiWbsnJLHU4uqy8QDsNHnKTrJu6Q1ldW13NXxkRB_LuxhLKOGAstw1vOO3xCfpIu5r2fyYspxp8Pai7yfDNVX7Pv37Ofta2grgVxq1sHUTK8e8CHv2wJmgmjemDZvKPB4mn0W63Lgx1kTyhwZgz7iB2BlREKqhSfgWlHAfw"
+            alt="Kantor Kelurahan Tambangan Kecamatan Mijen Kota Semarang"
+            src="/images/kelurahan.png"
             initial={{ scale: 1 }}
             animate={{ scale: [1, 1.03, 1] }}
             transition={{
