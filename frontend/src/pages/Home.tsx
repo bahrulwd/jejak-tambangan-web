@@ -346,7 +346,7 @@ export const Home: React.FC = () => {
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   alt="Tradisi Nyadran Kelurahan Tambangan"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZx8sIzJWTz1gCGZ6d9c5uX0Szua68NyniayoMRd4SVxttSQGzd8wA5A2_4RMkholhEpxkEDr6tWcA9tMFJueoX5Da9Xvr1HAkNMGv8xn__zk_-AHFnZr0bVefImYsA7wrGFhE9D7irAdPPYBx8PMIX3gvTP4Y56SSdgH1uXvt2HLipd2x3SRaRaiG1160QadbK339I47HqyAEEIVjH7KbGUOEMs6oW0v7drsEutoGjyWSgOt7wxhX4g"
+                  src="/images/nyadran.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent"></div>
                 <div className="absolute bottom-4 left-5 right-5 sm:left-6 sm:right-6 flex flex-wrap items-end justify-between gap-2 text-white">

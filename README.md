@@ -55,3 +55,4 @@ npm run build
 - **Penyusun & Kreator Dokumenter**: Dewi Ananda Agustin & Muhammad Bahrul Widad
 - **Dukungan Pelaksana**: Tim KKN UNNES GIAT 17 Kelurahan Tambangan
 - **Mitra Lapangan**: Pemerintah Kelurahan Tambangan, Kec. Mijen, Kota Semarang
+
