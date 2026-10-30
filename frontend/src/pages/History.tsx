@@ -74,8 +74,8 @@ export const History: React.FC = () => {
               ease: 'easeInOut',
             }}
             className="w-full h-full object-cover"
-            alt="Panorama sejarah dan terasering asri Kelurahan Tambangan"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRerzs3F5OFQOcl0Ej4Wyoh-loqmrC6uIyZDPalDw53dk-Npk8SX7GfuIMDtAVPUd304JDtTN9AMPCoHrw73VKhpdfEW50Chp3-4TQu1nmliIVe7-oJpHPhbDjbn8omDU5VtJJpxrdT6K3F6eh1JcD2O0bs0rkLcXRqHDArM90RevGuQ0aNwT6ZPdp5r_VTdoaIY7RAmfE0MccxW7R1eLWBRheDpDsO7sZjX2dsU0uQX0NvT5wlqeEOA"
+            alt="Kantor Kelurahan Tambangan Kecamatan Mijen Kota Semarang"
+            src="/images/kelurahan.png"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-on-background via-on-background/75 to-on-background/45 mix-blend-multiply"></div>
           <div className="absolute inset-0 bg-black/45"></div>
