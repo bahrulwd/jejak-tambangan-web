@@ -50,6 +50,19 @@ const cardItemVariants: Variants = {
 };
 
 export const Potential: React.FC = () => {
+  const [activeAnggrek, setActiveAnggrek] = React.useState(0);
+  const anggrekImages = [
+    { src: '/images/tamananggrek.png', alt: 'Budidaya Tanaman Anggrek CV Bunga Alam Lestari Tambangan' },
+    { src: '/images/tamananggrek1.png', alt: 'Koleksi Varietas Anggrek Tropis Tambangan' },
+  ];
+
+  const [activeSoto, setActiveSoto] = React.useState(0);
+  const sotoImages = [
+    { src: '/images/sotosawah.png', alt: 'Soto Sawah Mbak Tutik Kuah Kaldu Rempah Ayam Kampung' },
+    { src: '/images/sotosawah1.png', alt: 'Suasana Saung Joglo Santap Soto Sawah Tepi Terasering' },
+    { src: '/images/sotosawah2.png', alt: 'Pemandangan Panorama Sawah Asri Soto Sawah Tambangan' },
+  ];
+
   return (
     <div className="flex flex-col w-full">
       {/* 1. HERO SECTION (Consistent with Home Hero: Centered Alignment & Staggered Animations) */}
@@ -325,18 +338,21 @@ export const Potential: React.FC = () => {
               </div>
             </div>
 
-            {/* Bento Stack (Span 5): Sentra Budidaya Anggrek */}
+            {/* Bento Stack (Span 5): Sentra Budidaya Anggrek dengan Galeri Interaktif */}
             <div className="lg:col-span-5 bg-white rounded-2xl overflow-hidden flex flex-col justify-between shadow-md border border-border group h-full">
-              <div className="relative h-64 sm:h-72 w-full overflow-hidden">
+              <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-900">
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  alt="Sentra Budidaya Anggrek CV Bunga Alam Lestari Tambangan"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-i6TBpnM8FLpGrZvfVQNbBtW5an5DLSbbcn3EPPyPMeM2K6Ef7mBm_O8YM-3AXGZRxiHNvStP_QDLUmEf0AvW8BL6GcFP8XXZAnoj7lOdXaZuLn78XzdwDBBI7SRkeWZATlczV6WUOmjQojtlpb-fyurWYZEJ8Xhj7t6Vl3eDKxRDUO5-LtXHbPWUW-ZcejiEE50EcVdaYHCFtP82DddTnk0P3WQW-R2K8nvTSnIW"
+                  alt={anggrekImages[activeAnggrek].alt}
+                  src={anggrekImages[activeAnggrek].src}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent"></div>
-                <div className="absolute top-4 left-4">
+                <div className="absolute top-4 left-4 flex flex-wrap gap-2">
                   <span className="px-3 py-1 rounded-full bg-secondary-container text-slate-900 font-bold text-xs shadow-sm">
                     CV Bunga Alam Lestari
+                  </span>
+                  <span className="px-2.5 py-1 rounded-full bg-white/90 text-text-primary text-[11px] font-semibold">
+                    Foto {activeAnggrek + 1}/2
                   </span>
                 </div>
                 <div className="absolute bottom-4 left-5 right-5 text-white">
@@ -346,9 +362,32 @@ export const Potential: React.FC = () => {
                 </div>
               </div>
               <div className="p-6 sm:p-7 flex flex-col gap-4 grow justify-between">
-                <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
-                  Pusat florikultura modern yang membudidayakan ratusan varietas anggrek (Dendrobium, Bulan, Cattleya, Vanda). Menjadi subjek riset rantai pasok UNDIP 2025 dan daya tarik wisata botani utama di Kecamatan Mijen.
-                </p>
+                <div>
+                  <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
+                    Pusat florikultura modern yang membudidayakan ratusan varietas anggrek tropis berkualitas tinggi (Dendrobium, Bulan, Cattleya, Vanda). Menjadi suvenir resmi desa wisata Jadesta dan rujukan agribisnis botani di Kecamatan Mijen.
+                  </p>
+                  {/* Thumbnail Gallery Switcher */}
+                  <div className="flex items-center gap-2.5 mt-3 pt-3 border-t border-border/60">
+                    <span className="text-xs font-semibold text-text-secondary">Pilih Tampilan:</span>
+                    <div className="flex gap-2">
+                      {anggrekImages.map((img, idx) => (
+                        <button
+                          key={img.src}
+                          type="button"
+                          onClick={() => setActiveAnggrek(idx)}
+                          className={`relative w-11 h-11 rounded-lg overflow-hidden border-2 transition-all cursor-pointer ${
+                            activeAnggrek === idx
+                              ? 'border-primary-container ring-2 ring-primary-container/30 scale-105'
+                              : 'border-border/60 opacity-60 hover:opacity-100'
+                          }`}
+                          aria-label={`Lihat foto anggrek ${idx + 1}`}
+                        >
+                          <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
                 <div className="flex items-center gap-2 pt-3 border-t border-border/60 text-text-secondary text-xs sm:text-sm font-medium mt-auto">
                   <span className="material-symbols-outlined text-[18px] text-primary-container">local_florist</span>
                   <span>Edukasi Tani &amp; Pasar Florikultura</span>
@@ -356,33 +395,98 @@ export const Potential: React.FC = () => {
               </div>
             </div>
 
-            {/* Wide Feature Banner (Span 12): Kesenian Laes & Mata Air Tuk Babon */}
-            <div className="col-span-12 bg-white rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-md border border-border">
-              <div className="flex items-start gap-4 max-w-2xl">
+            {/* Bento Card 3 (Span 7): Soto Sawah Mbak Tutik - Kuliner Ikonik dengan Galeri 3 Foto */}
+            <div className="lg:col-span-7 bg-white rounded-2xl overflow-hidden flex flex-col justify-between shadow-md border border-border group h-full">
+              <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-900">
+                <img
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  alt={sotoImages[activeSoto].alt}
+                  src={sotoImages[activeSoto].src}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent"></div>
+                <div className="absolute top-4 left-4 flex flex-wrap gap-2">
+                  <span className="px-3 py-1 rounded-full bg-secondary-container text-slate-900 font-bold text-xs shadow-sm">
+                    Kuliner Ikonik Tambangan
+                  </span>
+                  <span className="px-2.5 py-1 rounded-full bg-white/90 text-text-primary text-[11px] font-semibold">
+                    Foto {activeSoto + 1}/3
+                  </span>
+                </div>
+                <div className="absolute bottom-4 left-5 right-5 text-white">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white leading-snug">
+                    Soto Sawah Mbak Tutik (Jl. Duwet)
+                  </h3>
+                </div>
+              </div>
+              <div className="p-6 sm:p-7 flex flex-col gap-4 grow justify-between">
+                <div>
+                  <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
+                    Sensasi santap soto kuah kaldu rempah ayam kampung otentik di saung joglo terbuka, berlatar pemandangan sawah terasering asri. Destinasi wisata kuliner unggulan berpendekatan <em>Blue Ocean Strategy</em> yang menjadi primadona wisatawan.
+                  </p>
+                  {/* Thumbnail Gallery Switcher */}
+                  <div className="flex items-center gap-2.5 mt-3 pt-3 border-t border-border/60">
+                    <span className="text-xs font-semibold text-text-secondary">Pilih Tampilan:</span>
+                    <div className="flex gap-2">
+                      {sotoImages.map((img, idx) => (
+                        <button
+                          key={img.src}
+                          type="button"
+                          onClick={() => setActiveSoto(idx)}
+                          className={`relative w-11 h-11 rounded-lg overflow-hidden border-2 transition-all cursor-pointer ${
+                            activeSoto === idx
+                              ? 'border-primary-container ring-2 ring-primary-container/30 scale-105'
+                              : 'border-border/60 opacity-60 hover:opacity-100'
+                          }`}
+                          aria-label={`Lihat foto soto sawah ${idx + 1}`}
+                        >
+                          <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between pt-3 border-t border-border/60 mt-auto">
+                  <span className="inline-flex items-center gap-1.5 text-text-secondary text-xs sm:text-sm font-medium">
+                    <span className="material-symbols-outlined text-[18px] text-primary-container">restaurant</span>
+                    <span>Saung Joglo Terasering</span>
+                  </span>
+                  <Link
+                    to="/soto-sawah"
+                    className="inline-flex items-center gap-1 text-primary-container hover:text-primary-hover font-semibold text-xs sm:text-sm group-hover:translate-x-1 transition-transform cursor-pointer"
+                  >
+                    <span>Eksplorasi Soto Sawah</span>
+                    <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Bento Card 4 (Span 5): Kesenian Langka Laes & Konservasi Tuk Babon */}
+            <div className="lg:col-span-5 bg-white rounded-2xl p-6 sm:p-7 flex flex-col justify-between shadow-md border border-border h-full">
+              <div className="flex flex-col gap-3">
                 <div className="w-12 h-12 rounded-2xl bg-primary-fixed text-primary-container flex items-center justify-center shrink-0 shadow-sm">
                   <span className="material-symbols-outlined text-[24px]">theater_comedy</span>
                 </div>
                 <div>
-                  <h4 className="text-lg sm:text-xl font-bold text-text-primary mb-1">
-                    Kesenian Langka Laes &amp; Konservasi Tuk Babon
+                  <span className="text-xs font-bold text-text-secondary uppercase tracking-wider block mb-1">
+                    Warisan Seni &amp; Konservasi
+                  </span>
+                  <h4 className="text-lg sm:text-xl font-bold text-text-primary mb-2">
+                    Kesenian Langka Laes &amp; Tuk Babon
                   </h4>
                   <p className="text-xs sm:text-sm text-text-secondary leading-relaxed">
-                    Paguyuban Ngudi Laras Wahyu Budoyo melestarikan seni tari akrobatik di atas tali bambu setinggi 10 meter yang berpadu dengan ritus sedekah bumi mengitari mata air alami Tuk Babon sebagai urat nadi sawah warga.
+                    Paguyuban Ngudi Laras Wahyu Budoyo melestarikan seni tari akrobatik di atas tali bambu 10 meter yang berpadu dengan ritus sedekah bumi mengitari mata air alami abadi Tuk Babon sebagai urat nadi sawah warga.
                   </p>
                 </div>
               </div>
-              <div className="flex flex-wrap items-center gap-3 shrink-0">
-                <div className="flex items-center gap-2 px-4 py-2 bg-surface rounded-full shadow-sm border border-border text-xs sm:text-sm font-semibold text-text-primary">
-                  <span className="material-symbols-outlined text-primary-container text-[18px]">water_drop</span>
-                  <span>Mata Air Tuk Babon</span>
+              <div className="flex flex-wrap items-center gap-2.5 pt-4 mt-4 border-t border-border/60">
+                <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface rounded-full shadow-xs border border-border text-xs font-semibold text-text-primary">
+                  <span className="material-symbols-outlined text-primary-container text-[16px]">water_drop</span>
+                  <span>Tuk Babon</span>
                 </div>
-                <div className="flex items-center gap-2 px-4 py-2 bg-surface rounded-full shadow-sm border border-border text-xs sm:text-sm font-semibold text-text-primary">
-                  <span className="material-symbols-outlined text-primary-container text-[18px]">theater_comedy</span>
-                  <span>Seni Laes Ngudi Laras</span>
-                </div>
-                <div className="flex items-center gap-2 px-4 py-2 bg-surface rounded-full shadow-sm border border-border text-xs sm:text-sm font-semibold text-text-primary">
-                  <span className="material-symbols-outlined text-primary-container text-[18px]">restaurant</span>
-                  <span>Soto Sawah Mbak Tutik</span>
+                <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface rounded-full shadow-xs border border-border text-xs font-semibold text-text-primary">
+                  <span className="material-symbols-outlined text-primary-container text-[16px]">theater_comedy</span>
+                  <span>Seni Laes</span>
                 </div>
               </div>
             </div>

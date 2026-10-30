@@ -72,7 +72,7 @@ export const SotoSawah: React.FC = () => {
             }}
             className="w-full h-full object-cover"
             alt="Suasana kuliner Soto Sawah Mbak Tutik bersanding dengan pemandangan sawah terasering asri"
-            src="https://lh3.googleusercontent.com/aida/AEtjO1U2DJpdgLUrz8YDF42Q2UfmFwKF1C_jxbu-DLNR1ptAuU4TkZRpKCZhT3VDl_aQGfwK-tRnIO67fZB9EjbvpwZ95OYCCHjHww9kpQItowRjmwDCQTVYtVsVkwpmrqRqBdJSHj-BT-EmvGX8rsfRBKJ3X4VOpckvvDIbXGhpw7N-t2svOv9eQCN5hKwWmpM5hmK-9tnFNT0s8aK9ecf6GaoKbEzjMnllkT4AamDattM_-xg7i-un0EN0SmEm"
+            src="/images/sotosawah.png"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-on-background via-on-background/75 to-on-background/45 mix-blend-multiply"></div>
           <div className="absolute inset-0 bg-black/45"></div>
@@ -453,7 +453,7 @@ export const SotoSawah: React.FC = () => {
                   <img
                     alt="Soto Sawah Mbak Tutik sajian kuah kuning ayam kampung dengan tempe mendoan dan sate kerang di atas meja kayu tepi sawah"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDORC1pPDcgZrWKoVgUumNb-Cg8xx2bwkUXl4ZqLYGWYClc6c_hJPnGYfI4saEcko8LRFo9iz4gfo4BP7BSvw4XJiLfid5dRxaf_74DFqW_UgiTtX_I2tj0HwLBB6JAy0roFaBsWvN_vrtNKSOLFzXNsV1a0s7YiLhkuoC7FuFgGfELo918ro1ugAfZACpGPPBb_j0OHEr5csWu4BSb0Yk3HOE_1ae0233zwMZnjZnH_nI8HazRrGoYgQ"
+                    src="/images/sotosawah.png"
                   />
                   <div className="absolute top-4 left-4 bg-primary-container text-white px-3.5 py-1.5 rounded-lg text-xs font-semibold shadow-md flex items-center gap-1.5">
                     <span className="material-symbols-outlined text-[16px]">verified</span>
@@ -470,7 +470,7 @@ export const SotoSawah: React.FC = () => {
                     <img
                       alt="Suasana joglo terbuka santap soto sawah bersama keluarga diiringi pemandangan sawah terasering pagi"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjcrgRReakrW6RDyCGufgqkfnf_SnBJ89gX7Kda0Rjir-_mHC3SYi5o4_ofadw-roJibcpw8_CUXe1uvY5P65OGXHHqBEw6u89CrtmjHq2wuW0UTg7ycZhkhwJNOXht3VMEydKkTufJr-4f2fMv3_fRTsFT2ow_yKI_Tsdqh93pAFNHp01i8jt5hW0DS3KOFUdxLTMCvPXBzDVun8Q5Zm2IKXJmo6uBwDRXTbJQnlg3GtEJP6_PVRvhQ"
+                      src="/images/sotosawah1.png"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-3">
                       <span className="text-xs text-white font-medium">Saung Joglo Tepi Terasering</span>
@@ -479,9 +479,9 @@ export const SotoSawah: React.FC = () => {
 
                   <div className="relative h-40 rounded-xl overflow-hidden shadow-sm group">
                     <img
-                      alt="Petani memetik sayuran segar untuk suplai bahan baku dapur Soto Mbak Tutik"
+                      alt="Pemandangan terasering sawah asri Soto Mbak Tutik"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      src="https://lh3.googleusercontent.com/aida/AEtjO1UloG-V9ow5tyBgiV96JUXU6wfs3J00OgTXLcTwSiiK291aARVsRimI4MOR6ESSut2s0ENan1H_U8pSS5WmKX7l6f7l68zC7YZxqcEvwf8ye3VxdXa0jUrPDUTffl-Jr_9Cmu-xDLPVTGOFMyvVd8fB7GMHUwgVQw4xDxo0k07GhRSz3OGFk06Yrya0JDYObK5mf2y5b6D3oYSK_uCDFEN_sbMCHUJIHqzaW6Cg4291u-cOcrt99dENZebB"
+                      src="/images/sotosawah2.png"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-3">
                       <span className="text-xs text-white font-medium">Bahan Segar Panen Desa</span>
@@ -575,7 +575,7 @@ export const SotoSawah: React.FC = () => {
                 <img
                   alt="Momen hangat warga dan wisatawan sarapan soto bersama di saung joglo sawah Tambangan"
                   className="w-full h-[440px] sm:h-[480px] object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjcrgRReakrW6RDyCGufgqkfnf_SnBJ89gX7Kda0Rjir-_mHC3SYi5o4_ofadw-roJibcpw8_CUXe1uvY5P65OGXHHqBEw6u89CrtmjHq2wuW0UTg7ycZhkhwJNOXht3VMEydKkTufJr-4f2fMv3_fRTsFT2ow_yKI_Tsdqh93pAFNHp01i8jt5hW0DS3KOFUdxLTMCvPXBzDVun8Q5Zm2IKXJmo6uBwDRXTbJQnlg3GtEJP6_PVRvhQ"
+                  src="/images/sotosawah2.png"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-text-primary/70 via-transparent to-transparent"></div>
                 <div className="absolute bottom-6 left-6 right-6 text-white">
