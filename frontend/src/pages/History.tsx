@@ -873,9 +873,9 @@ export const History: React.FC = () => {
         <div
           role="dialog"
           aria-modal="true"
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 sm:p-6 animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm p-3.5 sm:p-6 animate-in fade-in duration-200"
         >
-          <div className="bg-white rounded-2xl max-w-4xl w-full p-6 sm:p-8 flex flex-col gap-4 shadow-2xl relative border border-border">
+          <div className="bg-white rounded-2xl max-w-4xl w-full p-4 sm:p-6 lg:p-8 flex flex-col gap-3.5 sm:gap-4 shadow-2xl relative border border-border max-h-[92vh] overflow-y-auto">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-slate-900 shadow-sm font-bold">

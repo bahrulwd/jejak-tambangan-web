@@ -82,6 +82,7 @@
     background-color: var(--color-background);
     color: var(--color-text-primary);
     font-family: var(--font-body);
+    overflow-x: hidden;
   }
   body {
     overscroll-behavior: none;
