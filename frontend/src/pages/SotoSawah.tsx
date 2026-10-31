@@ -302,36 +302,39 @@ export const SotoSawah: React.FC = () => {
 
           {/* 12-Column Bento Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            {/* Large Visual Bento (7 Columns) */}
+            {/* Large Visual Bento (7 Columns): Tradisi Nyadran */}
             <div className="lg:col-span-7 bg-white rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between group border border-border">
               <div className="relative h-80 lg:h-96 w-full overflow-hidden">
                 <img
-                  alt="Balai Kelurahan Tambangan dan Ruang Terbuka Hijau Ramah Keluarga"
+                  alt="Tradisi Nyadran dan Sedekah Tenong Warga Kelurahan Tambangan"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                  src="https://lh3.googleusercontent.com/aida/AEtjO1UEouX0RpdB04X2mMtraLO_VHHmbXdm4vnCsn5GmCY4DpIXTuXn4gX51ejwlIXp9ttXUpGGIIxsvReP-xw6CoZv4zcXnoqxn8S6lg_V-Myqd7NdxqyefeTLS4B6JJLeOwEy8AQTT1ZKdZ_XprWvvmAwpfD5plMm-FGxHVGVRKKYECyeOxD-TWou4TwsIsnBRxbSLfLUCQAZCocyHBWpT_dVQ-5cs-RN2gPlAWlKV16QKVCkZE0D695wzzY5"
+                  src="/images/nyadran.png"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-text-primary/80 via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-text-primary/85 via-black/35 to-transparent"></div>
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3.5 py-1.5 rounded-full flex items-center gap-2 shadow-sm">
                   <span className="w-2.5 h-2.5 rounded-full bg-secondary-container animate-pulse"></span>
-                  <span className="text-xs text-text-primary font-semibold">Ruang Terbuka Bersama</span>
+                  <span className="text-xs text-text-primary font-semibold">Tradisi Sakral Bulan Rajab</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6 text-white">
                   <h3 className="text-xl sm:text-2xl font-bold mb-2">
-                    Balai Rembug &amp; Sentra Interaksi Ramah Warga
+                    Tradisi Nyadran: Sedekah Tenong &amp; Guyub Rukun Warga
                   </h3>
                   <p className="text-xs sm:text-sm text-white/90 leading-relaxed">
-                    Pusat temu budaya, kelembagaan gotong royong, serta layanan publik digital yang merangkul seluruh generasi di Kelurahan Tambangan.
+                    Tradisi Nyadran diselenggarakan setiap bulan Rajab (Jumat Pon atau Jumat Kliwon) di Makam Keramat dan Sendang Manco. Warga membawa tenong berisi hidangan untuk didoakan bersama sebagai wujud syukur atas berkah, kesehatan, dan kerukunan.
                   </p>
                 </div>
               </div>
-              <div className="p-6 bg-surface flex items-center justify-between border-t border-border">
+              <div className="p-6 bg-surface flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-t border-border">
                 <div className="flex items-center gap-3">
-                  <span className="material-symbols-outlined text-primary-container text-[24px]">nature_people</span>
+                  <span className="material-symbols-outlined text-primary-container text-[24px]">temple_hindu</span>
                   <span className="text-xs sm:text-sm font-semibold text-text-primary">
-                    Integrasi Kawasan Hijau dan Pelayanan Komunitas Terpadu
+                    Makam Keramat &amp; Sendang Manco
                   </span>
                 </div>
-                <span className="text-xs text-text-secondary">Kecamatan Mijen, Semarang</span>
+                <span className="text-xs text-text-secondary flex items-center gap-1.5">
+                  <span className="material-symbols-outlined text-[16px] text-primary-container">calendar_month</span>
+                  <span>Jumat Pon / Kliwon (Rajab)</span>
+                </span>
               </div>
             </div>
 
