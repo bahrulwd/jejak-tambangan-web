@@ -840,7 +840,7 @@ export const Home: React.FC = () => {
             <div className="w-full aspect-video rounded-2xl overflow-hidden bg-text-primary shadow-inner">
               <iframe
                 className="w-full h-full"
-                src="https://drive.google.com/file/d/1FZTSQjrH5vvBz85c1WALHpTIhC2y73-s/preview"
+                src="https://drive.google.com/file/d/118lWdW4khenHSB6sAA93l1KMT4ln7ZRl/preview"
                 title="Jejak Tambangan - Video Dokumenter Kelurahan Tambangan"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -853,7 +853,7 @@ export const Home: React.FC = () => {
               </span>
               <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
                 <a
-                  href="https://drive.google.com/file/d/1FZTSQjrH5vvBz85c1WALHpTIhC2y73-s/view?usp=sharing"
+                  href="https://drive.google.com/file/d/118lWdW4khenHSB6sAA93l1KMT4ln7ZRl/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-surface hover:bg-surface-variant text-xs sm:text-sm font-semibold text-text-primary transition-colors cursor-pointer border border-border"
