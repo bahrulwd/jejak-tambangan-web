@@ -98,7 +98,31 @@ export const Footer: React.FC = () => {
           <div className="flex flex-col gap-2.5">
             <h3 className="text-sm font-bold text-text-primary uppercase tracking-wider mb-1">Kantor Kelurahan</h3>
             <div className="text-xs sm:text-sm text-text-secondary flex flex-col gap-2 leading-relaxed">
-              <p>Jl. Raya Tambangan No. 01, Kecamatan Mijen, Kota Semarang, Jawa Tengah 50215</p>
+              <p>Jl. RM. Hadisoebeno Sosro Wardoyo, Tambangan, Kec. Mijen, Kota Semarang, Jawa Tengah 50216</p>
+
+              <div className="flex flex-col gap-1.5 pt-2 border-t border-border/60 text-xs">
+                <div className="flex items-center justify-between">
+                  <span className="text-text-secondary">Kode Kemendagri:</span>
+                  <span className="font-mono font-semibold text-text-primary">33.74.14.1006</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-text-secondary">Kode Pos:</span>
+                  <span className="font-semibold text-text-primary">50215 / 50216</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-text-secondary">Koordinat Spasial:</span>
+                  <a
+                    href="https://maps.google.com/?q=-7.081111,110.309444"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-mono text-primary-container hover:underline text-[11px]"
+                    title="Buka Koordinat di Google Maps"
+                  >
+                    7°04′52″S 110°18′34″E
+                  </a>
+                </div>
+              </div>
+
               <div className="pt-1">
                 <span className="text-xs font-semibold text-text-primary block">Jam Pelayanan:</span>
                 <span className="text-xs text-text-secondary">Senin - Jumat: 08.00 - 15.30 WIB</span>

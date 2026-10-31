@@ -686,7 +686,7 @@ export const Potential: React.FC = () => {
                       </span>
                       <div>
                         <span className="text-sm font-bold text-text-primary block">Alamat Balai Desa</span>
-                        <span className="text-xs text-text-secondary leading-relaxed">Jl. Raya Tambangan No. 01, Mijen, Kota Semarang, Jawa Tengah 50215</span>
+                        <span className="text-xs text-text-secondary leading-relaxed">Jl. RM. Hadisoebeno Sosro Wardoyo, Tambangan, Mijen, Kota Semarang, Jawa Tengah 50216</span>
                       </div>
                     </div>
 

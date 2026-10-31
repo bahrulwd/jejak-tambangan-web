@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: 'Desa Tambangan',
   subTitle: 'Portal Resmi & Arsip Digital Heritage',
-  secretariatAddress: 'Jl. Raya Tambangan No. 01, Kecamatan Mijen, Kota Semarang, Jawa Tengah 50215',
+  secretariatAddress: 'Jl. RM. Hadisoebeno Sosro Wardoyo, Tambangan, Kec. Mijen, Kota Semarang, Jawa Tengah 50216',
   email: 'kontak@desatambangan.id',
   phone: '+62 812-3456-7890',
   instagram: '@kelurahantambangan',
