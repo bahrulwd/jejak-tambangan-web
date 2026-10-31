@@ -304,36 +304,79 @@ export const SotoSawah: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             {/* Large Visual Bento (7 Columns): Tradisi Nyadran */}
             <div className="lg:col-span-7 bg-white rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between group border border-border">
-              <div className="relative h-80 lg:h-96 w-full overflow-hidden">
-                <img
-                  alt="Tradisi Nyadran dan Sedekah Tenong Warga Kelurahan Tambangan"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                  src="/images/nyadran.png"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-text-primary/85 via-black/35 to-transparent"></div>
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3.5 py-1.5 rounded-full flex items-center gap-2 shadow-sm">
-                  <span className="w-2.5 h-2.5 rounded-full bg-secondary-container animate-pulse"></span>
-                  <span className="text-xs text-text-primary font-semibold">Tradisi Sakral Bulan Rajab</span>
+              <div>
+                <div className="relative h-60 sm:h-72 w-full overflow-hidden">
+                  <img
+                    alt="Tradisi Nyadran dan Sedekah Tenong Warga Kelurahan Tambangan"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                    src="/images/nyadran.png"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent"></div>
+                  <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3.5 py-1.5 rounded-full flex items-center gap-2 shadow-sm">
+                    <span className="w-2.5 h-2.5 rounded-full bg-secondary-container animate-pulse"></span>
+                    <span className="text-xs text-text-primary font-semibold">Tradisi Sakral Bulan Rajab</span>
+                  </div>
+                  <div className="absolute bottom-4 left-5 right-5 text-white">
+                    <span className="text-xs uppercase tracking-wider text-secondary-fixed block font-semibold mb-0.5">
+                      Warisan Budaya Leluhur
+                    </span>
+                    <h3 className="text-lg sm:text-xl lg:text-2xl font-bold leading-tight drop-shadow-sm">
+                      Tradisi Nyadran &amp; Sedekah Tenong
+                    </h3>
+                  </div>
                 </div>
-                <div className="absolute bottom-6 left-6 right-6 text-white">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-2">
-                    Tradisi Nyadran: Sedekah Tenong &amp; Guyub Rukun Warga
-                  </h3>
-                  <p className="text-xs sm:text-sm text-white/90 leading-relaxed">
-                    Tradisi Nyadran diselenggarakan setiap bulan Rajab (Jumat Pon atau Jumat Kliwon) di Makam Keramat dan Sendang Manco. Warga membawa tenong berisi hidangan untuk didoakan bersama sebagai wujud syukur atas berkah, kesehatan, dan kerukunan.
+
+                {/* Content Body filling the space */}
+                <div className="p-6 sm:p-7 flex flex-col gap-4">
+                  <p className="text-xs sm:text-sm text-text-secondary leading-relaxed">
+                    Tradisi Nyadran di Kelurahan Tambangan diselenggarakan setiap bulan Rajab pada hari Jumat Pon atau Jumat Kliwon di Makam Keramat dan Sendang Manco. Warga berbondong-bondong membawa tenong berisi aneka sajian untuk didoakan bersama sebagai wujud rasa syukur atas berkah, kesehatan, dan kerukunan guyub rukun warga.
                   </p>
+
+                  {/* 3 Pillars of Nyadran Values */}
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+                    <div className="bg-surface p-3.5 rounded-xl border border-border/60 flex flex-col gap-1.5">
+                      <div className="w-8 h-8 rounded-lg bg-primary-container/10 text-primary-container flex items-center justify-center shrink-0">
+                        <span className="material-symbols-outlined text-[18px]">inventory_2</span>
+                      </div>
+                      <span className="text-xs font-bold text-text-primary">Sedekah Tenong</span>
+                      <p className="text-[11px] text-text-secondary leading-snug">
+                        Membawa wadah tenong bambu berisi nasi gurih &amp; lauk olahan warga untuk disantap bersama.
+                      </p>
+                    </div>
+
+                    <div className="bg-surface p-3.5 rounded-xl border border-border/60 flex flex-col gap-1.5">
+                      <div className="w-8 h-8 rounded-lg bg-secondary-container/40 text-slate-900 flex items-center justify-center shrink-0 font-bold">
+                        <span className="material-symbols-outlined text-[18px]">volunteer_activism</span>
+                      </div>
+                      <span className="text-xs font-bold text-text-primary">Doa Bersama</span>
+                      <p className="text-[11px] text-text-secondary leading-snug">
+                        Tahlil dan doa syukur mengenang jasa para leluhur cikal bakal desa Tambangan.
+                      </p>
+                    </div>
+
+                    <div className="bg-surface p-3.5 rounded-xl border border-border/60 flex flex-col gap-1.5">
+                      <div className="w-8 h-8 rounded-lg bg-tertiary-fixed/60 text-tertiary flex items-center justify-center shrink-0">
+                        <span className="material-symbols-outlined text-[18px]">diversity_3</span>
+                      </div>
+                      <span className="text-xs font-bold text-text-primary">Guyub Rukun</span>
+                      <p className="text-[11px] text-text-secondary leading-snug">
+                        Mempererat silaturahmi lintas generasi dan merawat gotong royong antarwarga.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="p-6 bg-surface flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-t border-border">
-                <div className="flex items-center gap-3">
-                  <span className="material-symbols-outlined text-primary-container text-[24px]">temple_hindu</span>
+
+              <div className="px-6 py-4 bg-surface flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-t border-border">
+                <div className="flex items-center gap-2.5">
+                  <span className="material-symbols-outlined text-primary-container text-[20px]">temple_hindu</span>
                   <span className="text-xs sm:text-sm font-semibold text-text-primary">
                     Makam Keramat &amp; Sendang Manco
                   </span>
                 </div>
                 <span className="text-xs text-text-secondary flex items-center gap-1.5">
                   <span className="material-symbols-outlined text-[16px] text-primary-container">calendar_month</span>
-                  <span>Jumat Pon / Kliwon (Rajab)</span>
+                  <span>Jumat Pon / Kliwon (Bulan Rajab)</span>
                 </span>
               </div>
             </div>
